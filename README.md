@@ -14,3 +14,9 @@ User Features
 - Checkout and order placement with simulated payment handling
 - Order history and order status tracking
 - Responsive user interface for desktop and mobile devices
+
+## Admin Features
+- Secure admin authentication
+- Product management (add, update, delete products)
+- Manage product price, stock, category, and images
+- Admin dashboard with system overview of products and orders
