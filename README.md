@@ -20,3 +20,38 @@ User Features
 - Product management (add, update, delete products)
 - Manage product price, stock, category, and images
 - Admin dashboard with system overview of products and orders
+
+## Database Design
+The application uses a MySQL relational database with a normalized schema to ensure data integrity and scalability.
+
+## Database Tables
+- Users – Stores customer and admin account information.
+- Categories – Groups technology products logically.
+- Products – Stores product details such as name, price, stock, and description.
+- Product_Images – Supports multiple images per product.
+- Carts – Represents active shopping carts per user.
+- Cart_Items – Links carts with products and quantities.
+- Orders – Records confirmed purchases and order status.
+- Order_Items – Stores products purchased within each order.
+- Payments – Tracks simulated payment details.
+
+## Technologies Used
+
+Frontend:
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
+
+Backend:
+- Flask (Python)
+- SQLAlchemy ORM
+- Flask-Login
+- Flask-WTF (CSRF Protection)
+
+Database and Environment:
+- MySQL
+- XAMPP (Apache and MySQL)
+- phpMyAdmin
+
+##Team Member: 
